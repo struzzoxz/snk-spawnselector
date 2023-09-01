@@ -1,0 +1,237 @@
+@keyframes slide{
+    from{
+        transform: translate(0,0);
+    } to {
+        transform: translate(140%,0);
+    }
+}
+
+
+.container{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 177.8vh;
+    height: 100vh;
+    border: none;
+    background: rgb(36, 35, 35);
+    box-shadow: rgba(0, 0, 0, 0.3) 0vh 0.3vh 5vh, rgba(0, 0, 0, 0.22) 0vh 0.7vh 1.5vh;
+    transform: translate(-50%, -50%);
+    
+}
+
+.paleto{
+
+    position: absolute;
+    top: 310px;
+    left: 400px;
+}
+
+.pal{
+
+    color:rgb(248, 248, 248);
+    position: absolute;
+    top: 37%;
+    left: 27%;
+    width: 28vh;
+    height: 30vh;
+    border: 1px solid white;
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+    border-radius: 1.5vh;
+    background: #2d2d2f;
+    transform: translate(-50%, -50%);
+
+}
+
+.spiaggia{
+
+    color:rgb(248, 248, 248);
+    position: absolute;
+    top: 45%;
+    left: 75%;
+    width: 28vh;
+    height: 48vh;
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 1.5vh;
+    background: #2d2d2f;
+    transform: translate(-50%, -50%);
+
+}
+
+.fotospiaggia{
+
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    top: 295px;
+    left: 1320px;
+}
+
+.paletob{
+
+    color:rgb(231, 231, 231);
+    background: radial-gradient(ellipse at top, #171628, transparent),
+    radial-gradient(ellipse at left, #aa186b, transparent), radial-gradient(ellipse at left, #aa186b, transparent),radial-gradient(ellipse at right, #aa186b, transparent);
+    margin:50px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px black solid;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: absolute;
+    top: 455px;
+    text-align: center;
+    left: 390px;
+    transition: all 0.2s ease;
+}
+
+.governo{
+
+    color:rgb(248, 248, 248);
+    position: absolute;
+    top: 61.5%;
+    left: 42%;
+    width: 81.5vh;
+    height: 15.5vh;
+    font-family:'Poppins', sans-serif;
+    border-radius: 1.5vh;
+    background: #2d2d2f;
+    border: 1px solid white;
+    transform: translate(-50%, -50%);
+
+}
+
+.fotogoverno{
+
+    position: absolute;
+    width: 200px;
+    height: 110px;
+    left: 390px;
+    top: 615px;
+}
+
+.garage{
+
+    position: absolute;
+    width: 450px;
+    height: 200px;
+    top: 295px;
+    left: 760px;
+}
+
+.scrittagov{
+
+    position: absolute;
+    color: aliceblue;
+    top: 560px;
+    font-family:'Poppins', sans-serif;
+    left: 430px;
+}
+
+.spawngar{
+
+    color:rgb(231, 231, 231);
+    background: radial-gradient(ellipse at top, #171628, transparent),
+    radial-gradient(ellipse at left, #aa186b, transparent), radial-gradient(ellipse at left, #aa186b, transparent),radial-gradient(ellipse at right, #aa186b, transparent);
+    margin:50px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px black solid;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: absolute;
+    top: 455px;
+    text-align: center;
+    left: 850px;
+    transition: all 0.2s ease;
+}
+
+.spawnspiaggia{
+
+    color:rgb(231, 231, 231);
+    background: radial-gradient(ellipse at top, #171628, transparent),
+    radial-gradient(ellipse at left, #aa186b, transparent), radial-gradient(ellipse at left, #aa186b, transparent),radial-gradient(ellipse at right, #aa186b, transparent);
+    margin:50px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px black solid;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: absolute;
+    top: 600px;
+    text-align: center;
+    left: 1320px;
+    transition: all 0.2s ease;
+}
+
+.spawngoverno{
+
+    color:rgb(231, 231, 231);
+    background: radial-gradient(ellipse at top, #171628, transparent),
+    radial-gradient(ellipse at left, #aa186b, transparent), radial-gradient(ellipse at left, #aa186b, transparent),radial-gradient(ellipse at right, #aa186b, transparent);
+    margin:50px;
+    width: 300px;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px black solid;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: absolute;
+    top: 570px;
+    text-align: center;
+    left: 700px;
+    transition: all 0.2s ease;
+}
+
+.spawngoverno:hover{
+    transform: scale(1.3);
+}
+
+.spawngar:hover{
+    transform: scale(1.3);
+}
+
+.spawnspiaggia:hover{
+    transform: scale(1.3);
+}
+
+.paletob:hover{
+    transform: scale(1.3);
+}
+
+
+
+
+.gar{
+
+    color:rgb(248, 248, 248);
+    position: absolute;
+    top: 37%;
+    left: 51%;
+    width: 50vh;
+    height: 30vh;
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+    border-radius: 1.5vh;
+    border: 1px solid white;
+    background: #2d2d2f;
+    transform: translate(-50%, -50%);
+}
+
+.sg_topbar span{
+    color: white;
+    text-shadow: 3px 3px 3px rgba(224, 14, 14, 0.281);
+    text-transform: uppercase;
+    font-family:'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 5vh;
+    position: absolute;
+    animation: slide 0.50s ease-in-out 0.00s 1 normal forwards;
+    transform: translate(140%,0);
+}
+
+
+
